@@ -5518,7 +5518,7 @@ function! fugitive#MapJumps(...) abort
     nnoremap <buffer>      cv<Space> :Git commit -v<Space>
     nnoremap <buffer>         cv<CR> :Git commit -v<CR>
     nnoremap <buffer> <silent> ca    :<C-U>Gcommit --amend<CR>
-    nnoremap <buffer> <silent> cc    :<C-U>Gcommit<CR>
+    nnoremap <buffer> <silent> cc    :<C-U>Gcommit -s<CR>
     nnoremap <buffer> <silent> ce    :<C-U>Gcommit --amend --no-edit<CR>
     nnoremap <buffer> <silent> cw    :<C-U>Gcommit --amend --only<CR>
     nnoremap <buffer> <silent> cva   :<C-U>Gcommit -v --amend<CR>
